@@ -1,0 +1,36 @@
+.image2{
+   display: none;
+}
+
+@media only screen and (max-width: 900px){
+   .image1{
+     display: none;
+   }
+
+   .image2{
+     display: block;
+   }
+}
+
+.image3{
+  display: none;
+}
+
+@media only screen and (max-width: 500px){
+   .image1{
+     display: none;
+   }
+
+   .image2{
+     display: none;
+   }
+
+   .image3{
+     display: block;
+   }
+}
+
+.IMG-Size1 {
+  object-fit: fill;
+  margin-bottom:3rem;
+}
