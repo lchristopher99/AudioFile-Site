@@ -1,36 +1,111 @@
-.image2{
+/* Media queries for changing carousel pics based on size of browser */
+.image2 {
    display: none;
 }
 
-@media only screen and (max-width: 900px){
-   .image1{
+@media only screen and (max-width: 990px) {
+   .image1 {
      display: none;
    }
 
-   .image2{
+   .image2 {
      display: block;
    }
 }
 
-.image3{
+.image3 {
   display: none;
 }
 
-@media only screen and (max-width: 500px){
-   .image1{
+@media only screen and (max-width: 500px) {
+   .image1 {
      display: none;
    }
 
-   .image2{
+   .image2 {
      display: none;
    }
 
-   .image3{
+   .image3 {
      display: block;
    }
 }
+/* End */
 
-.IMG-Size1 {
-  object-fit: fill;
-  margin-bottom:3rem;
+/* Round images fixed and featurette corners rounded */
+.round-fix {
+  object-fit:cover;
 }
+
+.round-corners {
+  border-radius:150px;
+}
+/* End */
+
+/* parallax feature VVV */
+.zDiv .parallax1 {
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../loganlocal-pics/gt-sub.JPG);
+
+    /* Fix BG opacity */
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .4;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.zDiv {
+  position: relative;
+  z-index: 1;
+}
+/* End */
+
+/* Changes p elements text color */
+p {
+  color: white;
+}
+/* End */
+
+/* Changes cursor to hand pointer */
+.btn {
+  cursor: pointer;
+}
+/* End */
+
+/* Fix footer text color */
+.text-muted > p {
+  color: #636c72 !important;
+}
+/* End */
+
+/* Switches footers based on media queries */
+#footer1 {
+  display: block;
+}
+
+#footer2 {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  #footer1 {
+      display: none;
+  }
+
+  #footer2 {
+      display: block;
+  }
+}
+/* End */

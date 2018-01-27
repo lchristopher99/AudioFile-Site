@@ -22,6 +22,12 @@ body {
   bottom: 3rem;
 }
 
+/* Centers & raises carousel caption and button...by yours truly ;) */
+.carousel-caption > h1, .carousel-caption > p {
+  text-align: center;
+}
+/* End */
+
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 40rem;
@@ -56,13 +62,8 @@ body {
 /* Featurettes
 ------------------------- */
 
-.featurette-divider-top {
-  margin-top: 0;
-  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
-}
-
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -71,7 +72,6 @@ body {
   line-height: 1;
   letter-spacing: -.05rem;
 }
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

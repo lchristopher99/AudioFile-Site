@@ -22,7 +22,7 @@
     <!-- Nav Bar -->
     <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span style="cursor:pointer" class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">Logan Local</a>
       <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -31,13 +31,13 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Prices</a>
+            <a class="nav-link" href="#price">Prices & Installations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Appointment</a>
+            <a class="nav-link" href="#appointment">Appointments</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
         </ul>
       </div>
@@ -54,7 +54,7 @@
         <div class="carousel-item active">
           <!-- <img class="first-slide" style="object-fill:fill; margin-bottom:3rem;" src="loganlocal-pics/gt-sub&amp5.JPG" alt="Featured"> -->
           <!-- Below will use media queries to swap carousel pictures based on screen size -->
-          <img src="loganlocal-pics/gt-sub&amp5.JPG" class="first-slide image1 IMG-Size1"/>
+          <img src="loganlocal-pics/gt-sub-wide.JPG" style="top:-100px" class="first-slide image1">
           <img src="loganlocal-pics/gt-amp&capacitor-cropped.jpg" style="left:-150px; top:-100px;" class="first-slide image2"/>
           <img src="loganlocal-pics/gt-amp&capacitor-cropped-flip.jpg" style="left:-100px; top:-50px;" class="first-slide image3"/>
           <div class="container">
@@ -96,31 +96,35 @@
       </a>
     </div>
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <!-- Marketing messaging and featurettes.
+         Wrap the rest of the page in another container to center all the content. -->
     <div class="container marketing">
 
       <!-- "Most Popular" Installations...takes customer to details of install and pricing -->
       <!-- Three columns of text below the carousel -->
       <div class="row">
+        <div class="col-lg-12">
+          <h1 style="margin-bottom:45px;" class="text-center">Popular Installations...</h1>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-lg-4">
-          <img class="rounded-circle" src="loganlocal-pics/stock-stereo.jpg" alt="All Stereo Installs!" width="140" height="140">
+          <img class="rounded-circle round-fix" src="loganlocal-pics/logan-stereo.JPG" alt="All Stereo Installs!" width="140" height="140">
           <h2>Stereos</h2>
-          <p>All stereo installations and prices.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <p class="lead">All stereo installations and prices.</p>
+          <p><a class="btn btn-secondary lead" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="rounded-circle" src="loganlocal-pics/aw-subs.jpeg" alt="All Subwoofer Installs!" width="140" height="140">
+          <img class="rounded-circle round-fix" src="loganlocal-pics/logan-sub.JPG" alt="All Subwoofer Installs!" width="140" height="140">
           <h2>Subwoofers</h2>
-          <p>All subwoofer installations and prices.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <p class="lead">All subwoofer installations and prices.</p>
+          <p><a class="btn btn-secondary lead" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="rounded-circle" src="loganlocal-pics/stock-speakers.jpg" alt="All Speaker Installs!" width="140" height="140">
+          <img class="rounded-circle round-fix" src="loganlocal-pics/stock-speakers.jpg" alt="All Speaker Installs!" width="140" height="140">
           <h2>Speakers</h2>
-          <p>All speaker installations and prices.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <p class="lead">All speaker installations and prices.</p>
+          <p><a class="btn btn-secondary lead" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
       <div class="row">
@@ -129,69 +133,90 @@
         <div class="col-lg-4"></div>
       </div>
 
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider-top">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Featured Installs parallax.</span></h2>
-          <p class="lead">details</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 push-md-5">
-          <h2 class="featurette-heading">Featured Installs parallax 2.</span></h2>
-          <p class="lead">details</p>
-        </div>
-        <div class="col-md-5 pull-md-7">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Featured Installs parallax 3.</span></h2>
-          <p class="lead">details</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017 Logan Local Installs &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
     </div><!-- /.container -->
 
+    <div id="appointment" class="container"><hr class="featurette-divider"></div>
+
+      <!-- START THE FEATURETTES -->
+
+      <!-- Appointments -->
+    <div class="zDiv">
+      <div class="parallax1"></div>
+        <div class="container marketing">
+
+          <div class="row featurette">
+            <div class="col-md-7 push-md-7">
+              <h1 style="margin-top:20px;" class="featurette-heading">Appointments</h1>
+              <p style="color:black; font-size:160%;" class="lead">Make an online appointment today!</p>
+              <hr>
+              <p style="color:black; font-size:140%" class="lead">- Availabe from 5 p.m. to 9 p.m. on weekdays.<br>- Available from 7 a.m. to 9 p.m. on weekends.<br>- Availability varies based on school schedule and hours will be extended during breaks and summer/winter seasons.</p>
+              <button style="margin-bottom:10px; font-size:120%;" type="button" class="btn btn-outline-primary">Make Appointment</button>
+            </div>
+            <div class="col-md-5 pull-md-7">
+              <img style="margin-top:20px; margin-bottom:20px;" class="featurette-image img-fluid mx-auto round-corners" src="loganlocal-pics/gt-sub&amp2.JPG" alt="Appointments">
+            </div>
+          </div>
+
+        </div><!-- /container marketing End -->
+    </div><!-- /zDiv End -->
+
+    <!-- Divider -->
+    <div id="about" class="container"><hr class="featurette-divider"></div>
+
+    <!-- About -->
+    <div class="zDiv">
+      <div class="parallax"></div>
+          <div class="container marketing">
+
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h1 class="featurette-heading">About</h1>
+                <p style="color:black; text-align:justify;" class="lead">Logan Local Audio and Repair is a Huntsville/Madison local car Audio installation and repair service provided by Logan Christopher. Logan has been working on car audio and general auto repair for close to 4 years now and is one of the cleanest and most meticulous 18 year old junior engineers out there. His work is guaranteed to last through the most chaotic of car rides and if it doesn’t, you can get it repaired for free! Logan provides his services at a lower price than the standard competition, yet, meets the same benchmark of quality.</p>
+              </div>
+              <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto round-corners" src="loganlocal-pics/logan.jpg" alt="Logan Christopher">
+              </div>
+            </div>
+
+            <!-- /END THE FEATURETTES -->
+
+        </div><!-- /container marketing End -->
+    </div><!-- /zDiv End -->
+
+    <!-- Divider -->
+    <div class="container"><hr class="featurette-divider"></div>
+    <!-- End Featurettes -->
+
+    <!-- FOOTER 1 & 2 switch based off of media queries-->
+    <!-- FOOTER 1 -->
+  <div id="footer1" class="container">
+    <footer class="text-muted">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>&copy; 2017 Logan Local Installs &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+  </div>
+
+  <!-- FOOTER 2 -->
+  <div id="footer2" class="container">
+    <footer class="text-muted">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p><a>&copy; 2017 Logan Local Installs</a> &middot;</p>
+      <p><a href='#'>Privacy</a> &middot;</p>
+      <p><a href="#">Terms</a> &middot;</p>
+    </footer>
+  </div><!-- End Footer 1 & 2-->
+
+
+    <!-- Following js allows carousel and dropdown functions to work.
+         Bootstrap core JavaScript.
+         Placed at the end of the document so the pages load faster. -->
     <div>
-      <!-- Following js allows carousel function to work -->
-      <!-- Bootstrap core JavaScript
-      ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
-      <!-- <script src="Style/Jquery/jquery-3.1.1.slim.min.js"></script>
-      <script src="Style/Ajax/Tether/1.4.0/tether.min.js"></script>
-      <script src="Style/BS/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script> -->
+      <!-- <script src="Style/Jquery/jquery-3.1.1.slim.min.js"></script> -->
+      <!-- <script src="Style/Ajax/Tether/1.4.0/tether.min.js"></script> -->
+      <!-- <script src="Style/BS/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script> -->
 
       <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
       <script src="Style/ViewPort-Fix/ie10-viewport-bug-workaround.js"></script>
-    </div>
-
+    </div><!-- End js-->
   </body>
 </html>
