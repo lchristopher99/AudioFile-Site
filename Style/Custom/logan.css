@@ -78,8 +78,12 @@ p {
 }
 /* End */
 
-/* Changes cursor to hand pointer */
+/* Changes cursor to hand pointer for all elements*/
 .btn {
+  cursor: pointer;
+}
+
+a {
   cursor: pointer;
 }
 /* End */
