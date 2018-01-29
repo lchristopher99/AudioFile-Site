@@ -3,14 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Huntsville/Madison audio & repair service. Same service. Lower rate.">
+    <meta name="author" content="Logan Christopher">
     <link rel="icon" href="favicon.ico">
 
     <title>Logan Local Audio & Repair</title>
 
     <!-- Bootstrap core CSS -->
     <link href="Style/BS/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="Style/scroll_js/jquery.min.js"></script>
+    <script src="Style/scroll_js/scroll.js"></script>
+    <script src="Style/scroll_js/jsapi"></script>
 
     <!-- Custom styles for this template -->
     <link href="Style/Custom/carousel.css" rel="stylesheet">
@@ -31,7 +35,7 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#price">Prices & Installations</a>
+            <a class="nav-link" href="Pages/prices&install.html">Prices & Installations</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#appointment">Appointments</a>
@@ -42,6 +46,7 @@
         </ul>
       </div>
     </nav>
+    <!-- End -->
 
     <!-- JS Carousel -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -112,24 +117,24 @@
           <img class="rounded-circle round-fix" src="loganlocal-pics/logan-stereo.JPG" alt="All Stereo Installs!" width="140" height="140">
           <h2>Stereos</h2>
           <p class="lead">All stereo installations and prices.</p>
-          <p><a class="btn btn-secondary lead" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary lead" href="Pages/prices&install.html#stereo-install" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="rounded-circle round-fix" src="loganlocal-pics/logan-sub.JPG" alt="All Subwoofer Installs!" width="140" height="140">
           <h2>Subwoofers</h2>
           <p class="lead">All subwoofer installations and prices.</p>
-          <p><a class="btn btn-secondary lead" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary lead" href="Pages/prices&install.html#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="rounded-circle round-fix" src="loganlocal-pics/stock-speakers.jpg" alt="All Speaker Installs!" width="140" height="140">
           <h2>Speakers</h2>
           <p class="lead">All speaker installations and prices.</p>
-          <p><a class="btn btn-secondary lead" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary lead" href="Pages/prices&install.html#speaker-install" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
       <div class="row">
         <div class="col-lg-4"></div>
-        <div class="col-lg-4"><p><a class="btn btn-info" href="#" role="button">All Installations and Prices! &raquo;</a></p></div>
+        <div class="col-lg-4"><p><a class="btn btn-info" href="Pages/prices&install.html" role="button">All Prices & Installations! &raquo;</a></p></div>
         <div class="col-lg-4"></div>
       </div>
 
@@ -191,7 +196,6 @@
     <!-- FOOTER 1 -->
   <div id="footer1" class="container">
     <footer class="text-muted">
-      <p class="float-right"><a href="#">Back to top</a></p>
       <p>&copy; 2017 Logan Local Installs &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
     </footer>
   </div>
@@ -199,13 +203,14 @@
   <!-- FOOTER 2 -->
   <div id="footer2" class="container">
     <footer class="text-muted">
-      <p class="float-right"><a href="#">Back to top</a></p>
       <p><a>&copy; 2017 Logan Local Installs</a> &middot;</p>
       <p><a href='#'>Privacy</a> &middot;</p>
       <p><a href="#">Terms</a> &middot;</p>
     </footer>
   </div><!-- End Footer 1 & 2-->
 
+  <!-- Scroll to top -->
+  <a id="back2Top" title="Back to top" href="#">&#10148;</a>
 
     <!-- Following js allows carousel and dropdown functions to work.
          Bootstrap core JavaScript.

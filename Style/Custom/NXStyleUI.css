@@ -1,0 +1,170 @@
+/* Delete these following lines when exporting stylesheet to main page */
+html {
+			margin:0;
+		  font-family: helvetica;
+		  max-width:1920px;
+		}
+/* End */
+
+		.examples {
+		   text-align: center;
+		}
+
+		.image:hover {
+		   -webkit-transform: scale(1.35);
+		   transform: scale(1.35);
+		   opacity: .9;
+		}
+
+		.image {
+		   -webkit-transition: all 0.7s ease;
+		   transition: all 0.7s ease;
+		   padding: 15px;
+		   margin:auto;
+
+		}
+
+		span.text-content {
+			 color: white;
+		   cursor: pointer;
+		   display: table;
+		   height: 150px;
+		   left: 15px;
+		   position: absolute;
+		   top: 15px;
+		   width: 280px;
+		   opacity: 0;
+		   -webkit-transition: opacity 500ms;
+		   -moz-transition: opacity 500ms;
+		   -o-transition: opacity 500ms;
+		   transition: opacity 500ms;
+		}
+
+		span.text-content span {
+		   display: table-cell;
+		   text-align: center;
+		   vertical-align: top;
+		}
+
+		ul.img-list {
+		   list-style-type: none;
+		   margin: 0 auto;
+		   padding: 0;
+		   text-align: center;
+		}
+
+		ul.img-list li {
+		   display: inline-block;
+		   height: 150px;
+		   margin: 0 1em 1em 0;
+		   position: relative;
+		   width: 280px;
+		}
+
+		ul.img-list li:hover span.text-content {
+		   opacity: 1;
+		   -webkit-transition: all 0.7s ease;
+		   transition: all 0.7s ease;
+		}
+
+/* Custom BS container */
+.container-custom {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+  .container-custom {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-custom {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-custom {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-custom {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container-custom {
+    width: 540px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-custom {
+    width: 720px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-custom {
+    width: 960px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-custom {
+    width: 1140px;
+    max-width: 100%;
+  }
+}
+
+.container-custom-fluid {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+  .container-custom-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-custom-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-custom-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-custom-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+/* End */
