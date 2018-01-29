@@ -54,3 +54,25 @@ div.img-list div:hover span.text-content {
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
+#IMG-TOP {
+  margin-top:250px;
+}
+
+#IMG-spec {
+  margin-top:200px;
+}
+
+@media only screen and (max-width: 770px) {
+  #IMG {
+     margin-bottom: 190px;
+   }
+
+  #IMG-TOP {
+    margin-top:0;
+  }
+
+  #IMG-spec {
+    margin-bottom: 190px;
+    margin-top: 0;
+  }
+}
