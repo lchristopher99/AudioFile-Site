@@ -1,16 +1,16 @@
 /*Scroll to top when arrow up clicked BEGIN*/
-$(window).scroll(function() {
+jQuery_1_7_1(window).scroll(function() {
     var height = $(window).scrollTop();
     if (height > 100) {
-        $('#back2Top').fadeIn();
+        jQuery_1_7_1('#back2Top').fadeIn();
     } else {
-        $('#back2Top').fadeOut();
+        jQuery_1_7_1('#back2Top').fadeOut();
     }
 });
-$(document).ready(function() {
-    $("#back2Top").click(function(event) {
+jQuery_1_7_1(document).ready(function() {
+    jQuery_1_7_1("#back2Top").click(function(event) {
         event.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, "slow");
+        jQuery_1_7_1("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
     });
 
