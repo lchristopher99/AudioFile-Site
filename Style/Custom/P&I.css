@@ -1,0 +1,114 @@
+/* Imports and sets font style for entire page */
+@font-face {
+   font-family: Nexa-Light;
+   src: url("../../Fonts/Nexa-Light.otf");
+}
+
+* {
+  font-family: Nexa-Light;
+}
+/* End */
+
+/* Switches footers based on media queries */
+#footer1 {
+  display: block;
+}
+
+#footer2 {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  #footer1 {
+      display: none;
+  }
+
+  #footer2 {
+      display: block;
+  }
+}
+/* End */
+
+/* Zoom function for NXUI */
+.examples {
+  text-align: center;
+}
+.image:hover {
+  -webkit-transform: scale(1.35);
+  transform: scale(1.35);
+  opacity: .9;
+}
+.image {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  padding: 15px;
+  margin: auto;
+}
+/* End */
+
+/* Sets font size for NXUI content */
+.text-size p {
+  font-size: 15px;
+}
+/* End */
+
+/* Responsive Design */
+/* #IMG-TOP {
+  margin-top:250px;
+}
+
+#IMG-spec {
+  margin-top:200px;
+}
+
+@media only screen and (max-width: 770px) {
+  #IMG {
+     margin-bottom: 30px;
+   }
+
+   #IMG-SI {
+     margin-bottom: 190px;
+   }
+
+  #IMG-TOP {
+    margin-top:0;
+  }
+
+  #IMG-spec {
+    margin-bottom: 190px;
+    margin-top: 0;
+  }
+
+  #IMG-SpI {
+    margin-bottom: 190px;
+  }
+}
+
+@media only screen and (max-width: 990px) and (min-width: 770px) {
+  #IMG-SI {
+    margin-top: 200px;
+  }
+
+  #IMG-SpI {
+    margin-top: 200px;
+  }
+} */
+
+/* Sets dont color and margins */
+#red {
+  color:#ff5959;
+  /* margin-bottom: 0px; */
+}
+
+#green {
+  color:#4ff76d;
+  /* margin-bottom: 0px;
+  margin-top:0px; */
+}
+
+#Marg {
+  color: white;
+  margin-bottom: 0px;
+  margin-top:125px;
+}
+/* End */
