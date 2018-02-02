@@ -27,6 +27,26 @@
 }
 /* End */
 
+/* Switches nav logo based on media queries */
+#nav1 {
+  display: block;
+}
+
+#nav2 {
+  display: none;
+}
+
+@media only screen and (max-width: 990px) {
+  #nav1 {
+      display: none;
+  }
+
+  #nav2 {
+      display: block;
+  }
+}
+ /* End */
+
 /* Media queries for changing carousel pics based on size of browser */
 .image2 {
    display: none;
@@ -81,7 +101,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../../loganlocal-pics/gt-sub.JPG);
+    background-image: url(../../loganlocal-pics/product-pics/gt-sub.JPG);
 
     /* Fix BG opacity */
     position: absolute;
