@@ -1,3 +1,5 @@
+
+
 /* Imports dependent stylesheets */
 /* @import url("../MDB-Free/css/bootstrap.css"); */
 @import url("../MDB-Free/css/mdb.css");
@@ -16,6 +18,13 @@
 
 /* Footer */
 /* Switches footers based on media queries */
+#footer {
+  left: 0px;
+  bottom: 0px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+
 #footer1 {
   display: block;
 }
@@ -38,6 +47,7 @@
 /* Switches nav logo based on media queries */
 #nav1 {
   display: block;
+  color: white;
 }
 
 #nav2 {
@@ -46,11 +56,11 @@
 
 @media only screen and (max-width: 990px) {
   #nav1 {
-      display: none;
+    display: none;
   }
 
   #nav2 {
-      display: block;
+    display: block;
   }
 }
  /* End */
@@ -75,7 +85,7 @@
 
     position: fixed;
     bottom: 0px;
-    right: 0;
+    right: 0px;
     background-color: rgb(193, 193, 193);
     border-radius: 25px;
     margin-right: 25px;
@@ -144,7 +154,13 @@ div.zoom#img1 {
 
 #Marg {
   color: white;
-  margin-bottom: 0px;
-  margin-top:125px;
+  margin-top:40%;
+  font-size: 30px;
+}
+/* End */
+
+/* Makes logo clickable */
+#logo {
+  cursor:pointer;
 }
 /* End */

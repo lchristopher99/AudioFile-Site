@@ -30,6 +30,7 @@
 /* Switches nav logo based on media queries */
 #nav1 {
   display: block;
+  color: white;
 }
 
 #nav2 {
@@ -297,5 +298,11 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+/* End */
+
+/* Makes logo clickable */
+img.#logo {
+  cursor:pointer;
 }
 /* End */
